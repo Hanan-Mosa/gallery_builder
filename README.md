@@ -1,16 +1,43 @@
-# gallery_builder
+#  Gallery Builder 
 
-A new Flutter project.
+This application allows user to select multiple images from their device's gallery and display them in a list view.
+
+## Features
+
+*   **Multiple Image Selection:** User can select multiple images from their device's gallery at once.
+*   **List View Display:** Selected images are displayed in a list layout.
+  
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1.  **Prerequisites:**
+    *   Flutter SDK installed.
+    *   Android Studio 
+2.  **Installation:**
+    *   Clone this repository
+       ```bash
+          git clone https://github.com/Hanan-Mosa/gallery_builder.git
+       ```
+    *   Get Dependancies
+      
+       ```bash
+          flutter pub get
+       ```
+   *    Run the app
+     
+        ```bash
+          flutter run
+         ```
 
-A few resources to get you started if this is your first Flutter project:
+## Code Explanation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The code uses the `image_picker` plugin to allow the user to select images from their device's gallery.</br>
+The `pickMultipleImages()` method is used to select multiple images. </br>
+The selected images are then displayed in a `ListView`. </br>
+The `ListView` display the images in a list format, using `Image.file` to load them from their file paths.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Video Demo
+
+https://github.com/user-attachments/assets/fa8409c2-4304-48a0-b02c-b84ae4819d28
+
+
